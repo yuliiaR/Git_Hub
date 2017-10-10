@@ -1,6 +1,6 @@
 files:
-  - source: /*.xml
-    translation: /translations/%two_letters_code%/sample(translations).xml
+  - source: '**/*.*'
+    translation: '**/%original_file_name%'
     languages_mapping:
       two_letters_code:
         zh-CN: ch
