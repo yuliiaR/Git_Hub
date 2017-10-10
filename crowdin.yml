@@ -1,6 +1,6 @@
 files:
   - source: '**/*.*'
-    translation: '**/%original_file_name%'
+    translation: /%original_path%/%original_file_name%
     languages_mapping:
       two_letters_code:
         zh-CN: ch
